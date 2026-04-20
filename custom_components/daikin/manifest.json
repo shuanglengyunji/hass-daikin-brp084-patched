@@ -1,0 +1,13 @@
+{
+  "domain": "daikin",
+  "name": "Daikin AC (BRP084 patched)",
+  "codeowners": ["@shuanglengyunji"],
+  "config_flow": true,
+  "documentation": "https://github.com/shuanglengyunji/pydaikin/tree/feature/brp084-ftxm71-fixes",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "loggers": ["pydaikin"],
+  "requirements": ["pydaikin @ git+https://github.com/shuanglengyunji/pydaikin.git@feature/brp084-ftxm71-fixes"],
+  "version": "0.1.0",
+  "zeroconf": ["_dkapi._tcp.local."]
+}
